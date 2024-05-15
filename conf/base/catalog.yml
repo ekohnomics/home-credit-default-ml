@@ -1,0 +1,31 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+application_test:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/application_test.csv
+
+application_train:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/application_train.csv
+
+bureau:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/bureau.csv
+
+credit_card_balance:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/credit_card_balance.csv
+
+installments_payments:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/installments_payments.csv
+
+pos_cash_balance:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/POS_CASH_balance.csv
+
+previous_application:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/previous_application.csv
